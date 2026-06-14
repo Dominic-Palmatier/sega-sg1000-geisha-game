@@ -1,0 +1,10 @@
+# Font assembly listing file for 8bitworkshop
+# Generated from font.s
+
+segment data
+
+_font_data:
+    ds 128
+
+_font_patterns:
+    dw _font_data

@@ -1,0 +1,24 @@
+# Game assembly listing file for 8bitworkshop
+# Generated from game.c
+
+segment code
+
+_init_game:
+    ; Initialize game state
+    ret
+
+_update_player:
+    ; Update player position
+    ret
+
+_update_dogs:
+    ; Update dog positions
+    ret
+
+_draw_game:
+    ; Draw all game objects
+    ret
+
+_main:
+    ; Main game loop
+    ret

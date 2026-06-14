@@ -1,0 +1,28 @@
+# Common functions assembly listing for 8bitworkshop
+# Generated from common.c
+
+segment code
+
+_init_vdp:
+    ; Initialize VDP hardware
+    ret
+
+_clear_screen:
+    ; Clear the screen
+    ret
+
+_draw_sprite:
+    ; Draw a sprite at x, y
+    ret
+
+_draw_text:
+    ; Draw text string
+    ret
+
+_read_input:
+    ; Read controller input
+    ret
+
+_load_sprites:
+    ; Load sprite patterns
+    ret
